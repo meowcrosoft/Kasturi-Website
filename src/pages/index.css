@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+  font-family: 'Sora', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  /* font-size: clamp(50px, 162px, 300px); */
+  font-size: 12vw;
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 80px;
+  padding-left: 60px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    font-size: 16vw;
+  }
+}
+
+.port {
+    display: block;
+    font-size: 50px;
+    font-weight: bold; 
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .port {
+        display: none;
+    }
+    .mail1 {
+        display: none;
+    }
+    .mail2 {
+        display:none;
+    }
+}
+
+.mail1 {
+    color: #FF00FF;
+    font-weight: "bold"; 
+    font-size: 30px;
+}
+
+.mail2 {
+    color: #000000;
+    font-weight: "bold"; 
+    font-size: 30px;
+}
+
+.w-layout-grid {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    grid-row-gap: 16px;
+    grid-column-gap: 16px;
+    font-family: "Montserrat";
+}
+
+.hero-left-description-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.hero-description {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.hero-description-panel {
+    margin-top: 2em;
+}
+
+.hero-links-grid {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 5px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+    text-align: right;
+}
+
+.content.horizontal {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.content.overflow-hidden {
+    overflow: hidden;
+}
+
+.content-details {
+    margin-bottom: 2em;
+}
+
+
+
+.content-details p {
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 1.35;
+}
+  
+.content-details h3 {
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+  
+.content-details h4 {
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+  
+.content-details h5 {
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+  
+.content-details h6 {
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+  
+.content-details h2 {
+    text-align: center;
+}
+  
+.content-details h1 {
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+
+}
